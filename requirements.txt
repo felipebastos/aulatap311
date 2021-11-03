@@ -1,0 +1,7 @@
+Flask==2.0.2
+dynaconf==3.1.7
+toml
+flaskstarter==0.4.5
+flask-sqlalchemy
+flask-migrate
+flask-login
