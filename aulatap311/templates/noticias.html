@@ -1,0 +1,10 @@
+{% for noticia in noticias %}
+    <h1>{{noticia.texto}}</h1>
+    <ul>
+        {% for tag in noticia.tags %}
+        <li>
+            {{tag.assunto}}
+        </li>
+        {% endfor %}
+    </ul>
+{% endfor %}
